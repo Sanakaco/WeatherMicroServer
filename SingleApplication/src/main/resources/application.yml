@@ -1,0 +1,14 @@
+spring:
+  redis:
+    host: node002
+    port: 6379
+    timeout: 10000
+    lettuce:
+      pool:
+        time-between-eviction-runs: 30000
+  thymeleaf:
+    cache: false
+    mode: HTML
+    suffix: .html
+    prefix: classpath:/templates/
+
