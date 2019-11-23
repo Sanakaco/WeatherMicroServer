@@ -1,0 +1,14 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: WeatherCollection
+  redis:
+    host: node002
+    port: 6379
+    timeout: 10000
+    jedis:
+      pool:
+        max-idle: 10
+        max-active: 10
+        max-wait: 3000

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 24,
+    "pid": 0,
+    "city_code": "101020100",
+    "city_name": "上海",
+    "post_code": "200000",
+    "area_code": "021",
+    "ctime": "2019-07-11 17:30:08"
+  },
+  {
+    "id": 25,
+    "pid": 0,
+    "city_code": "",
+    "city_name": "四川",
+    "post_code": null,
+    "area_code": null,
+    "ctime": null
+  },
+  {
+    "id": 26,
+    "pid": 0,
+    "city_code": "101030100",
+    "city_name": "天津",
+    "post_code": "300000",
+    "area_code": "022",
+    "ctime": "2019-07-11 17:30:08"
+  },
+  {
+    "id": 27,
+    "pid": 0,
+    "city_code": "",
+    "city_name": "西藏",
+    "post_code": null,
+    "area_code": null,
+    "ctime": null
+  },
+  {
+    "id": 28,
+    "pid": 0,
+    "city_code": "",
+    "city_name": "新疆",
+    "post_code": null,
+    "area_code": null,
+    "ctime": null
+  },
+  {
+    "id": 29,
+    "pid": 0,
+    "city_code": "",
+    "city_name": "云南",
+    "post_code": null,
+    "area_code": null,
+    "ctime": null
+  },
+  {
+    "id": 30,
+    "pid": 0,
+    "city_code": "",
+    "city_name": "浙江",
+    "post_code": null,
+    "area_code": null,
+    "ctime": null
+  },
+  {
+    "id": 31,
+    "pid": 0,
+    "city_code": "101040100",
+    "city_name": "重庆",
+    "post_code": null,
+    "area_code": "023",
+    "ctime": "2019-07-11 17:30:08"
+  },
+  {
+    "id": 32,
+    "pid": 0,
+    "city_code": "101320101",
+    "city_name": "香港",
+    "post_code": "999077",
+    "area_code": "+852",
+    "ctime": "2019-07-11 17:03:38"
+  },
+  {
+    "id": 33,
+    "pid": 0,
+    "city_code": "101330101",
+    "city_name": "澳门",
+    "post_code": "999078",
+    "area_code": "+853",
+    "ctime": "2019-07-11 17:03:39"
+  },
+  {
+    "id": 34,
+    "pid": 0,
+    "city_code": "",
+    "city_name": "台湾",
+    "post_code": null,
+    "area_code": null,
+    "ctime": null
+  }
+]

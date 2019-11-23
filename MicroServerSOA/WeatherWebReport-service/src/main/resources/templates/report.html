@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title >kin的天气预报Cwaylau.com) </title>
+    <meta name="viewport "
+          content="width=device-width, initial-scale=l, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3>kin</h3>
+            <select id="selectCityid">
+                <option th:each="city : ${ cityList }" th:text="${city.getCity_code()}"
+                        th:value="${city.getCity_code()}" th:selected="${city.getCity_code() eq cityid}">Volvo</option>
+            </select>
+        </div>
+        <div class="row">
+            <h1 th:text="${report.city}"></h1>
+        </div>
+        <div class="row">
+            <p>
+                当前温度：<span th:text="${report.wendu}"/>
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                温馨提示：<span th:text="${report.ganmao}"/>
+            </p>
+        </div>
+        <div class="row">
+            <div class="card" th:each="forecast : ${report.forecast}">
+                <div class="cars-body">
+                    <p class="card-text" th:text="${forecast.date}">周五</p>
+                    <p class="card-text" th:text="${forecast.type}">晴转多云</p>
+                    <p class="card-text" th:text="${forecast.high}">高温28℃</p>
+                    <p class="card-text" th:text="${forecast.low}">低温3℃</p>
+                    <p class="card-text" th:text="${forecast.fengxiang}">无持续风向微风</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>

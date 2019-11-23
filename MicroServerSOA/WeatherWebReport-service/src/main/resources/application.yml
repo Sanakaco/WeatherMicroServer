@@ -1,0 +1,10 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: ReportService
+  thymeleaf:
+    cache: false
+    mode: HTML
+    suffix: .html
+    prefix: classpath:/templates/
