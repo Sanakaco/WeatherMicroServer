@@ -1,12 +1,14 @@
 package com.kin.single.weather;
 
+import java.io.Serializable;
+
 /**
  * @author pandas
  * @ClassName Forcecast
  * @Description TODO
  * @create 2019/11/20 14:32
  */
-public class Forcecast {
+public class Forcecast implements Serializable {
     private static final long versionUid=1l;
     private String date;
     private String high;

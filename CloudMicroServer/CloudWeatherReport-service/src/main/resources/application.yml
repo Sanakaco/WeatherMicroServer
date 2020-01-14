@@ -1,0 +1,19 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: cloudreport
+  thymeleaf:
+    prefix: classpath:/templatse/
+    suffix: .html
+    mode: HTML
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+feign:
+  hystrix:
+    enabled: true

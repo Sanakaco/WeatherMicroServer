@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CloudMicroServer/CloudCityReport-service/src/main/resources/AMap_adcode_citycode.xlsx" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CloudMicroServer/CloudWeatherReport-service/src/main/resources/templates/weathor.html" charset="GBK" />
+  </component>
+</project>

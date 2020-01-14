@@ -3,17 +3,13 @@ package com.kin.single.QuartzJob;
 import com.kin.single.city.CityMsg;
 import com.kin.single.service.CityDataService;
 import com.kin.single.service.SyncWeatherDataService;
-import org.apache.logging.log4j.Logger;
+
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
-import org.quartz.SchedulerException;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.scheduling.quartz.QuartzJobBean;
 
-import javax.sound.midi.Soundbank;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.io.IOException;
 import java.util.List;
 
